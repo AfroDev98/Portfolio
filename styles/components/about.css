@@ -48,3 +48,27 @@
     content: ' ';
     
 }
+
+   /* xs */
+   /*@media (min-width: 475px) {}*/
+   
+   /* sm */
+   /*@media (min-width: 640px) {}*/
+   
+   /* md */
+   /*@media (min-width: 768px) {}*/
+   
+   /* Lg */
+   @media (min-width: 1024px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   }
+   
+   /* xL */
+   /*@media (min-width: 1280px) {}*/
+   
+   /* 2xL */
+   /*@media (min-width: 1536px) {} */
