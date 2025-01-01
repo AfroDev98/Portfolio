@@ -146,6 +146,10 @@
    
    /* xL */
    @media (min-width: 1280px) {
+    .about__content {
+        gap: 2rem;
+    }
+    
     .about__title {
         font-size: var(--size-5xl);
     }
@@ -172,4 +176,4 @@
    }
    
    /* 2xL */
-   /*@media (min-width: 1536px) {} */
+   /*@media (min-width: 1536px) {}*/}
