@@ -1,3 +1,10 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
 .about__content {
     display: flex;
     flex-direction: column;
@@ -49,11 +56,58 @@
     
 }
 
+.img__about {
+    height: 35rem;
+    width: 35rem;
+}
+
    /* xs */
-   /*@media (min-width: 475px) {}*/
+   @media (min-width: 475px) {
+    .about {
+        gap: 1.5rem;
+    }
+    
+    
+    .about__content {
+        gap: 1.5rem;
+    }
+    
+    .about__title {
+        font-size: var(--size-3xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-base);
+    }
+   
+    .about__subtitle {
+        font-size: var(--size-base);
+    }
+   
+    
+    .about__list {
+        font-size: var(--size-base);
+ 
+    }
+    
+    .img__about {
+       width: 55rem;
+       height: 50rem;
+        border-radius: 50%;
+    }
+   }
+   
    
    /* sm */
-   /*@media (min-width: 640px) {}*/
+   @media (min-width: 640px) {
+    .img__about-wrapper {
+        margin: 0 auto;
+    }
+    
+    .img__about {
+        width: 25.5625rem;
+    }
+   }
    
    /* md */
    /*@media (min-width: 768px) {}*/
@@ -61,14 +115,61 @@
    /* Lg */
    @media (min-width: 1024px) {
     .about {
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-Lg);
+    }
+   
+    .about__subtitle {
+        font-size: var(--size-Lg);
+    }
+   
+    
+    .about__list {
+        font-size: var(--size-Lg);
+ 
+
+    
+    .img__about {
+       width: 55rem;
+       height: 50rem;
+        border-radius: 50%;
     }
    }
    
    /* xL */
-   /*@media (min-width: 1280px) {}*/
+   @media (min-width: 1280px) {
+    .about__title {
+        font-size: var(--size-5xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-xl);
+    }
+   
+    .about__subtitle {
+        font-size: var(--size-xl);
+    }
+   
+    
+    .about__list {
+        font-size: var(--size-xl);
+ 
+    }
+    
+    .img__about {
+       width: 55rem;
+       height: 50rem;
+        border-radius: 50%;
+    }
+   }
    
    /* 2xL */
    /*@media (min-width: 1536px) {} */
